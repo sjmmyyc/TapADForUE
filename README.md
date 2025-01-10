@@ -38,8 +38,6 @@ TapADN 是中国 Taptap 公司的广告联盟平台。此插件封装了 Android
 5. 监控广告回调事件。从 TaptapAdSubsystem 对象拖放，搜索“bind to”以查看三种广告类型支持的所有回调，并将事件绑定到它。
 <img src="bindto.png"/>
 
-### 注意：本插件只是对 Java 版的 SDK 做了一层封装，让大家可以在UE里面通过 C++ 或蓝图来调用底层的 Java SDK。因此这里不再复述 Space ID 是什么，又是如何获取的，因为这些全在 TapADN 官方文档里面有说明。
-
 ### 插件实现语言：100% C++和 Java
 
 ## 重要提示：
