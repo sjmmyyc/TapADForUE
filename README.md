@@ -15,9 +15,10 @@ TapADN 是中国 Taptap 公司的广告联盟平台。此插件封装了 Android
 
 目前仅与 UE5.4 和 UE5.5 版本兼容。
 
-## 说明：
+## 使用方法：
 
 安装插件后，进入 UE，打开插件面板，在 Coder 类别下找到 TapTapAD 插件并启用它。
+<img src="plugin.png"/>
 
 打开项目设置，在左侧的“插件”类别下找到“TapTap 广告设置”，在此可以配置 TapTap 广告接口。此处配置的信息来自 TapTapAD 官方网站。请申请一个 TapTap 账户并自行设置相关信息。
 
