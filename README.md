@@ -17,7 +17,7 @@ TapADN 是中国 Taptap 公司的广告联盟平台。此插件封装了 Android
 
 ## 使用方法：
 
-1. 安装插件后，进入 UE，打开插件面板，在 Coder 类别下找到 TapTapAD 插件并启用它。需要注意的是，启用插件后需要重新启动UE方可生效。
+1. 安装插件后，进入 UE，打开插件面板，在 Coder 分类下找到 TapADN Ads Plugin，并启用它。需要注意的是，启用插件后需要重新启动UE方可生效。
 <img src="plugin.png"/>
 
 2. 打开项目设置，在左侧的“插件”类别下找到“TapTap 广告设置”，在此可以配置 TapTap 广告接口。此处配置的信息来自 TapTapAD 官方网站。请申请一个 TapTap 账户并自行设置相关信息。
@@ -26,7 +26,8 @@ TapADN 是中国 Taptap 公司的广告联盟平台。此插件封装了 Android
 3. 加载广告。打开任意蓝图，右键单击，搜索“get taptap”，选择“获取 TaptapAdSubsystem”
 <img src="gettaptap.png" />
 
-4. 然后使用 TaptapAdSubsystem 对象搜索“加载”，选择要加载的广告类型。目前支持三种形式的广告：开屏广告、激励广告和插屏广告。使用非常简单。
+4. 然后使用 TaptapAdSubsystem 对象搜索“load”，选择要加载的广告类型。目前支持三种形式的广告：开屏广告、激励广告和插屏广告。使用非常简单。
+<img src="load.png" />
 
 监控广告回调。从 TaptapAdSubsystem 对象拖放，搜索“绑定到”以查看三种广告类型支持的所有回调，并将事件绑定到它。
 
