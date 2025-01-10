@@ -28,11 +28,15 @@ TapADN 是中国 Taptap 公司的广告联盟平台。此插件封装了 Android
 
 4. 然后使用 TaptapAdSubsystem 对象搜索“load”，选择要加载的广告类型。目前支持三种形式的广告：开屏广告、激励广告和插屏广告。关于这三种类型的广告形式的介绍，请移步 TapADN 官方文档查阅。
 <img src="load.png" />
-以上三种广告的加载，都需要传入 Space ID，这也是 TapADN 文档中介绍的东西，本插件只是对 Java 版的 SDK 做了一层封装，让大家可以在UE里面通过 C++ 或蓝图来调用底层的 Java SDK。因此这里不再复述 Space ID 是什么，又是如何获取的，因为这些全在 TapADN 官方文档里面有说明。
+以上三种广告的加载，都需要传入 Space ID，这也是 TapADN 文档中介绍的东西。
+
 
 5. 监控广告回调事件。从 TaptapAdSubsystem 对象拖放，搜索“bind to”以查看三种广告类型支持的所有回调，并将事件绑定到它。
+<img src="bindto.png"/>
 
-插件实现语言：100% C++和 Java
+### 注意：本插件只是对 Java 版的 SDK 做了一层封装，让大家可以在UE里面通过 C++ 或蓝图来调用底层的 Java SDK。因此这里不再复述 Space ID 是什么，又是如何获取的，因为这些全在 TapADN 官方文档里面有说明。
+
+### 插件实现语言：100% C++和 Java
 
 ## 温馨提示：
 
